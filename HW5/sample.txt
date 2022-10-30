@@ -1,0 +1,10 @@
+add i 4
+remove a
+add a 28
+add r 26
+add p 20
+add m 279
+add o 729
+remove i
+remove m
+remove o
