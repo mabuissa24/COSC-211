@@ -1,0 +1,10 @@
+20 red
+10 black
+12 red
+11 black
+13 black
+5 black
+25 black
+22 black
+28 black
+30 red
