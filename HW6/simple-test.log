@@ -1,0 +1,10 @@
+remove          2 -> false : match
+lookup          3 -> false : match
+insert          8 ->  true : match
+insert          5 ->  true : match
+insert          5 -> false : match
+lookup          5 ->  true : match
+remove         17 -> false : match
+remove          5 ->  true : match
+lookup          5 -> false : match
+Total collisions = 0
