@@ -27,6 +27,7 @@ class Link <E> {
 public class AmhLinkedList <E> implements AmhList <E> {
 // ==============================================================================
 
+    // This class was debugged for assignment
 
     
     // ==========================================================================

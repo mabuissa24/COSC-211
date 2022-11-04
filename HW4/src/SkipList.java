@@ -12,7 +12,7 @@ public class SkipList<E extends Comparable<E>> implements AmhSortedSet<E> {
 
     private int countOps = 0;
 
-    public boolean add(E x) {
+    public boolean add(E x) { // this method filled in for assignment
         Stack<Node<E>> preds = findAllPreds(x);
         Node<E> pred0 = null;
         if (!preds.isEmpty()) {
@@ -52,7 +52,8 @@ public class SkipList<E extends Comparable<E>> implements AmhSortedSet<E> {
         return true;
     }
 
-    public E remove(E x) {
+    public E remove(E x) { // this method filled in for assignment
+
         Stack<Node<E>> preds = findAllPreds(x);
 
         Node<E> pred0 = preds.peek();
@@ -80,7 +81,8 @@ public class SkipList<E extends Comparable<E>> implements AmhSortedSet<E> {
         return numElts;
     }
 
-    protected Stack<Node<E>> findAllPreds(E x) {
+    protected Stack<Node<E>> findAllPreds(E x) { // this method filled in for assignment
+
         countOps = 0;
         Stack<Node<E>> toReturn = new Stack<Node<E>>();
         for (int i = height; i >= 0; i--){

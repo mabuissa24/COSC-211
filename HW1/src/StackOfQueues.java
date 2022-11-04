@@ -49,7 +49,8 @@ public class StackOfQueues <E> implements AmhStack <E> {
      * @throws IllegalStateException if the stack cannot be expanded
      *                               to accomodate the additional element.
      */
-    public void push (E element) throws IllegalStateException {
+    public void push (E element) throws IllegalStateException { // Filled in for assignment
+
         _queue.add(element);
         for (int i = 0; i < _queue.size() - 1; i++){
             _queue.add(_queue.remove());
@@ -66,7 +67,8 @@ public class StackOfQueues <E> implements AmhStack <E> {
      * @return the element taken from the top of the stack.
      * @throws NoSuchElementException if the stack is empty.
      */    
-    public E pop () throws NoSuchElementException {
+    public E pop () throws NoSuchElementException { // Filled in for assignment
+
         return _queue.remove();
     } // pop ()
     // ==========================================================================
@@ -80,7 +82,8 @@ public class StackOfQueues <E> implements AmhStack <E> {
      * @return the element at the top of the stack.
      * @throws NoSuchElementException if the stack is empty.
      */
-    public E top () throws NoSuchElementException {
+    public E top () throws NoSuchElementException { // Filled in for assignment
+
         return _queue.peek();
     } // top ()
     // ==========================================================================
@@ -93,7 +96,8 @@ public class StackOfQueues <E> implements AmhStack <E> {
      *
      * @return the length of the stack.
      */
-    public int size () {
+    public int size () { // Filled in for assignment
+
         return _queue.size();
     } // size ()
     // ==========================================================================

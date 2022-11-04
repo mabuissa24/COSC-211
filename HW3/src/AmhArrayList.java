@@ -1,4 +1,6 @@
 public class AmhArrayList <E> implements AmhList <E> {
+    
+    // This class was debugged for assignment
 
     private Object[] _storage;
     private int _size;

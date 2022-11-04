@@ -56,7 +56,7 @@ public class RBTester {
     }
 
 
-    private static boolean isRBTree (RedBlackTree<Integer> rbt) {
+    private static boolean isRBTree (RedBlackTree<Integer> rbt) { // Method completed for assignment
 
 	RBNode<Integer> root = rbt.root;
 	boolean redRoot = root.red;

@@ -49,7 +49,7 @@ public class QueueOfStacks <E> implements AmhQueue <E> {
      * @throws IllegalStateException if the queue cannot be expanded
      *                               to accomodate the additional element.
      */
-    public void add (E element) throws IllegalStateException {
+    public void add (E element) throws IllegalStateException { // Filled in for assignment
         AmhStack<E> tempStack = new WrapperStack<E>();
         while (_stack.size() > 0) {
             tempStack.push(_stack.pop());
@@ -70,7 +70,8 @@ public class QueueOfStacks <E> implements AmhQueue <E> {
      * @return the element taken from the head of the queue.
      * @throws NoSuchElementException if the queue is empty.
      */
-    public E remove () throws NoSuchElementException {
+    public E remove () throws NoSuchElementException { // Filled in for assignment
+
         return _stack.pop();
     } // remove ()
     // ==========================================================================
@@ -78,7 +79,8 @@ public class QueueOfStacks <E> implements AmhQueue <E> {
 
     
     // ==========================================================================
-    public E peek () throws NoSuchElementException {
+    public E peek () throws NoSuchElementException { // Filled in for assignment
+
         return _stack.top();
     } // peek ()
     // ==========================================================================
@@ -86,7 +88,8 @@ public class QueueOfStacks <E> implements AmhQueue <E> {
 
     
     // ==========================================================================
-    public int size () {
+    public int size () { // Filled in for assignment
+
         return _stack.size();
     } // size ()
     // ==========================================================================

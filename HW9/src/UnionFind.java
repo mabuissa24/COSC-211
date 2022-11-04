@@ -1,4 +1,4 @@
-public class UnionFind {
+public class UnionFind { // Class created for assignment
     public LLAddOnly[] sets;
     public int index = 0;
 

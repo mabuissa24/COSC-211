@@ -1,4 +1,7 @@
 public class BinarySearchTree<K extends Comparable<K>, V> implements Dictionary<K, V>{
+
+    // This class was constructed from scratch for assignment	
+	
     private Node<K, V> head = new Node<>(null, null, null);
 
     public V add(K key, V value){

@@ -2,6 +2,8 @@ import java.util.LinkedList;
 
 public class ChainedHashSet<E> implements AmhHashSet<E> {
 
+    // All methods implemented for assignment
+
     private LinkedList<E>[] storage;
     private int             m;
     private int             n;

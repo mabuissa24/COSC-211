@@ -14,7 +14,7 @@ public class MazeGenerator {
 	printMaze(mazeMap);
     }
 
-    public void createMaze(Wall[] walls, Cell[][] mazeMap) {
+    public void createMaze(Wall[] walls, Cell[][] mazeMap) { // Method filled in for assignment
 		mazeMap[0][0].left.visible = false;
 		walls[walls.length - 1].visible = false;
 		UnionFind cells = new UnionFind(mazeMap.length);
